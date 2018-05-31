@@ -1,0 +1,21 @@
+{
+  "name": "2do-webapp-vue-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.11",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.10.0"
+  }
+}
