@@ -30,13 +30,10 @@ const config = {
         ]
       },
       {
-        test: /\.styl/,
+        test: /\.styl(us)?$/,
         use: [
           'vue-style-loader',
-          {
-            loader: 'css-loader',
-            options: { modules: true }
-          },
+          'css-loader',
           {
             loader: 'postcss-loader',
             options: {
